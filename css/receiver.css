@@ -1,0 +1,28 @@
+body {
+  padding: 0 2.5em;
+  background-color: #fff;
+}
+
+.magnum-cursor {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #0f0;
+  width: 10px;
+  height: 10px;
+}
+
+.hoverable {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+  background-color: #f00;
+}
+.hoverable.hover {
+  background-color: #0f0;
+}
+.hoverable:active {
+  background-color: #00f;
+}

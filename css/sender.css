@@ -1,0 +1,7 @@
+.hidden {
+  display: block;
+}
+.body-container {
+  min-height: 1200px;
+  overflow: hidden;
+}
